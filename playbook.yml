@@ -53,6 +53,8 @@
           - fail2ban
           - borgbackup
           - rclone
+          - certbot 
+          - python-certbot-nginx
 
     - name: Fetching public keys
       import_tasks: tasks/fetching_keys.yml
